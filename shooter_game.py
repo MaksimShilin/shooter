@@ -244,7 +244,7 @@ while game:
             if restart.rect.collidepoint(x_button, y_button):
                 kill = 0
                 lost = 0
-                sprite12.hearts = 2
+                sprite12.hearts = 3
                 sprite1.hearts = 3
                 for monster in monsters:
                     monster.rect.y = randint(-110, -70)
