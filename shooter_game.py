@@ -258,3 +258,4 @@ while game:
             game = False
     display.update()
     clock.tick(105)
+    
